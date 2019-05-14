@@ -43,7 +43,7 @@ cerrar.forEach(function(close){
     content.classList.add("animated");
 
     setTimeout(function(){
-      location.href = "/boletines";
+      location.href = "/";
     }, 600);
     // setInterval
 

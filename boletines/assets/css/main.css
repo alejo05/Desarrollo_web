@@ -87,6 +87,7 @@ a:hover{
   border-width: 2px;
   border-color: #6AC5A7;*/
   font-size: 2em;
+  font-family: 'Fresca', sans-serif;
   border-bottom: #6AC5A7 solid 2px; /*shorthand properties*/
   padding-bottom: 1em;
 }
@@ -108,6 +109,9 @@ a:hover{
   padding: 0.5em;
   border-radius: 4px;
   margin-right: 0.5em;
+}
+.paragraph{
+  font-family: 'Roboto', sans-serif;
 }
 @media (max-width:600px){
   .content{
