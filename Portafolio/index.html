@@ -137,12 +137,14 @@
 
 			function validation(event){
 				if(event.matches){
-					burgerButtom.addEventListener('touch', hideShow);
+					burgerButtom.addEventListener('click', hideShow);
 				}
 				else{
-					burgerButtom.removeEventListener('touch', hideShow);
+					burgerButtom.removeEventListener('click', hideShow);
 				}
 			};
+
+			validation(tablet);
 
 			function hideShow() {
 				if(menu.classList.contains('is-active')) {
