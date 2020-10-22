@@ -71,7 +71,7 @@ img{
   font-weight: 300;
 }
 
-.fa-star, .fa-star-o{
+.fa-star, .fa-star-half-alt{
   color: #ffc400;
 }
 
@@ -130,7 +130,7 @@ img{
     align-items: center;
     justify-content: center;
   }
-  .fas{
+  .fa-photo-video{
     margin-right: 10px;
   }
   .main-image{
@@ -178,7 +178,7 @@ img{
     display: flex;
     align-items: center;    
   }  
-  .fas{
+  .fa-photo-video{
     margin-right: 10px;
   }
   .paragraph{
