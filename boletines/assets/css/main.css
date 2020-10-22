@@ -160,6 +160,6 @@ img{
 
 @media (min-height: 550px){
   .content{
-    height: 80vh;
+    height: 85%;
   }
 }
