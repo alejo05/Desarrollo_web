@@ -1,0 +1,270 @@
+/* fuentes */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;0,700;1,400&family=Roboto+Mono:ital,wght@0,400;0,700;1,400&family=Roboto:ital,wght@0,400;0,700;1,400&display=swap');
+/* estilos header */
+.header{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 100vh;
+  background-image: url('../images/foto1.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 50% 35%;
+}
+.title{
+  margin: 0;
+  text-align: center;
+  color: white;
+  font-family: 'Montserrat', sans-serif;
+}
+.title_1{
+  font-size: 26px;
+  font-style: italic;
+  font-weight: lighter;
+}
+.title_2{
+  font-size: 60px;
+  font-weight: bold;
+  text-transform: uppercase;  
+}
+
+/* estilos experiencia laboral */
+.experience{
+  width: 70%;
+  margin: auto;
+  margin-top: 70px;  
+}
+.experience-title{
+  text-align: center;  
+  font-size: 36px;
+  font-family: 'Montserrat', sans-serif;
+  color: #333333;
+}
+.exp{
+  display: flex;    
+  margin-top: 50px;
+}
+.exp figure{
+  margin-top: 0;
+  width: 30%;  
+}
+.exp figure img{
+  border-radius: 25px;
+  width: 100%;
+}
+.exp_details{
+  margin-top: 0;
+  width: 70%;
+}    
+.exp_company{
+  margin: 0;
+  text-decoration: none;
+  font-family: 'Roboto', sans-serif;
+  font-size: 24px;
+  color: #3377cc;
+}
+.exp_company:hover{
+  color: #3d8ff5;   
+}
+.exp_roll{
+  font-family: 'Roboto', sans-serif;
+  font-size: 16px;
+  color: #5e9516;
+  
+}
+.exp_city{
+  font-family: 'Roboto', sans-serif;
+  font-size: 15px;
+  color: #50555c;
+  font-weight: bold;
+}
+.exp_date{
+  font-family: 'Roboto Mono', sans-serif;
+  font-size: 15px;
+  color: #50555c;
+}
+.exp_functions{
+  font-family: 'Roboto', sans-serif;
+  font-size: 15px;
+  color: #50555c;
+  font-weight: 200px;
+  line-height: 22px;
+}
+/* estilos proyectos web */
+.web_projects{
+  background: #EEEEEE;
+  padding-top: 50px;
+  padding-bottom: 80px;
+}
+.web_projects-title{
+  text-align: center;  
+  font-size: 36px;
+  font-family: 'Montserrat', sans-serif;
+  color: #333333;
+  margin-bottom: 70px;
+}
+.web_projects p{
+  text-align: center;
+  font-family: 'Roboto', sans-serif;
+  font-size: 20px;
+  color: #222222;
+  margin-bottom: 40px;
+}
+.web_projects p:nth-child(3){
+  font-weight: bolder;
+}
+.web_projects-items{
+  width: 80%;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 70px;
+}
+.web_projects-image{
+  width: 30%;
+  filter: blur(1px);
+  transition: transform .7s;
+}
+.web_projects-image:hover{
+  transform: scale(1.2);
+  filter: none; 
+}
+.web_projects-image img{
+  width: 100%;  
+}
+/* estilos para estudios */
+.studies{
+  height: 100vh; 
+  background: linear-gradient(to right, #373b44, #4286f4);
+  color: white;  
+  
+}
+.studies-title{
+  text-align: center; 
+  font-family: 'Montserrat', sans-serif;
+  font-size: 36px;  
+  margin: 0;
+  padding-top: 50px;
+  padding-bottom: 20px;
+}
+.studies-details{
+  width: 70%;
+  margin: auto;
+  font-family: 'Roboto', sans-serif;  
+  text-align: center;
+}
+.studies-details_degree{
+  font-size: 20px;
+  text-transform: uppercase;
+
+}
+.studies-details_college{
+  font-size: 14px;
+  text-transform: capitalize;
+
+}
+.studies-details_college span{
+  text-transform: uppercase;
+}
+.adicional{
+  width: 70%;
+  margin: auto;
+  font-family: 'Roboto', sans-serif;  
+  text-align: center;
+}
+.adicional p{
+  font-size: 20px;
+  text-transform: uppercase;
+}
+.adicional ul{
+  font-size: 14px;
+  list-style: none; 
+  padding: 0; 
+}
+.adicional li{
+  margin-bottom: 5px;
+}
+/* estilos para el footer */
+.contact{
+  height: 100vh;  
+}
+.contact-title{
+  text-align: center;  
+  font-size: 36px;
+  font-family: 'Montserrat', sans-serif;
+  color: #333333;  
+  margin: 0;
+  padding-top: 70px; 
+  padding-bottom: 40px;
+}
+.contact-perfil{
+  display: flex;
+  width: 80%;
+  margin: auto;
+}
+.contact-perfil_description{
+  width: 60%;
+  font-family: 'Roboto', sans-serif;
+  font-size: 18px;
+  color: #222222;
+  font-weight: lighter;
+  line-height: 18px;
+  margin-right: 60px;
+  text-align: justify; 
+}
+.contact-perfil_contacts{  
+  font-family: 'Roboto', sans-serif;
+  font-size: 20px;
+  color: #222222;  
+}
+.contact-perfil_contacts p:nth-child(1){
+  font-weight: bolder;
+}
+.contact-perfil_contacts a{
+  color: #222222;  
+  text-decoration: none
+}
+.contact-perfil_contacts a:hover{
+  color: #5e9516;
+}
+.social{
+  width: 80%;
+  margin: auto;
+}
+.social p{
+  text-align: center;
+  font-family: 'Roboto', sans-serif;
+  font-size: 20px;
+  color: #222222;
+  margin-bottom: 20px;
+  font-weight: bolder;
+
+}
+.social_net{
+  width: 80%;
+  margin: auto;
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 70px;
+}
+.social_net a{
+  text-decoration: none;   
+  font-size:  150px;
+  transition: transform .7s;
+}
+.social_net a:hover{
+  transform: scale(1.2);
+}
+.social_net a:nth-child(1){
+  color: #1B3E78;
+}
+.social_net a:nth-child(2){
+  color: #7C007C;
+}
+.social_net a:nth-child(3){
+  color: #007BB6;
+}
+
+
+
