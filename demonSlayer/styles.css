@@ -1,0 +1,145 @@
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&family=Rampart+One&family=Rowdies&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+
+body{
+  background-color: #2C3333;
+  font-family: 'Poppins', sans-serif; 
+}
+
+#title{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center; 
+  font-family: 'Rampart One', cursive;
+}
+
+#seleccionar-personaje{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+#seleccionar-personaje button{
+  font-family: 'Press Start 2P', cursive;
+  width: 180px;
+  height: 40px;
+  border-radius: 20px;
+  background: transparent;
+  border: 2px solid white;
+  color: white;
+  margin-top: 30px;
+}
+
+.titulo{
+  color: white; 
+  font-size: 32px;  
+}
+
+.titulo span{
+  font-size: 24px;
+  display: flex;
+  justify-content: center;
+}
+
+.subtitulo{
+  color: white;  
+  font-size: 24px;
+}
+
+.tarjetas, .tarjetas-ataques{
+  display: flex;
+  gap: 10px;    
+}
+
+input{
+  display: none;
+}
+
+input:checked + label{
+  background: #A5C9CA;
+  color: black;
+}
+
+.tarjeta-personaje{
+  background-color: #395B64;
+  color: white;
+  width: 180px;
+  height: 120px;
+  padding: 10px;
+  box-sizing: border-box;
+  border-radius: 16px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.tarjeta-personaje img{
+  width: 80px;
+}
+
+#seleccionar-ataque{
+  flex-direction: column;
+  align-items: center;
+}
+
+.boton-de-ataque{
+  background: #395B64;
+  color: white;
+  padding: 10px;
+  box-sizing: border-box;
+  border-radius: 20px;
+  border-color: transparent;
+  width: 120px;
+  font-size: 24px;
+}
+
+#mensajes{
+  width: 300px;
+  background: #395B64;
+  color: white;
+  padding: 20px;
+  margin-top: 20px;
+  border-radius: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;   
+}
+
+#boton-reinicio{
+  background: transparent;
+  border: none;
+  border-radius: 20px;
+  color: white; 
+  font-family: 'Poppins', sans-serif;
+}
+
+#boton-reinicio:hover{
+  color: #2C3333;  
+}
+
+.ataques{
+  display: grid;
+  grid-template-columns: 150px 150px;  
+  margin-top: 20px;
+  background: #395B64;
+  color: white;
+  padding: 20px;    
+}
+
+.ataques div{
+  text-align: center;  
+}
+
+@media(max-width: 360px){
+  .tarjetas{
+    flex-direction: column;
+  }
+  .titulo{
+    text-align: center;
+  }
+  .tarjetas-ataques{
+    flex-direction: column;
+  }
+}

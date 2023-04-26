@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">  
+  <link rel="stylesheet" href="./styles.css">
+  <title>Piedra Papel Tijera</title>
+</head>
+<body>
+  <section id="title">
+    <h1 class="titulo">Piedra, Papel o Tijera <br><span>version Demon Slayer</span></h1>
+  </section>
+  <section id="seleccionar-personaje">
+    <h2 class="subtitulo">Elige tu personaje:</h2>
+    <div id="contenedorTarjetas" class="tarjetas">
+           
+    </div>
+    <button id="boton-personaje">Seleccionar</button>
+  </section>
+  <section id="seleccionar-ataque">
+    <h2 class="subtitulo">Elige tu ataque</h2>
+    <div id="contenedorAtaques" class="tarjetas-ataques">
+     
+    </div>    
+      <div id="mensajes">    
+        <p id="resultado">Mucha suerte</p>
+        <section id="reiniciar">          
+            <button id="boton-reinicio">Reiniciar</button>          
+        </section>
+      </div>      
+    <div class="ataques">
+      <div>
+        <p id="vidas-jugador">3</p>
+        <p>Tu: <span id="personaje-jugador"></span></p>
+        <div id="ataques-del-jugador"></div>        
+      </div>
+      <div>
+        <p id="vidas-rival">3</p>
+        <p>Rival: <span id="personaje-rival"></span></p>
+        <div id="ataques-del-rival"></div>        
+      </div>      
+    </div>   
+  </section>
+  <script src="js/index.js"></script>
+</body>
+</html>
