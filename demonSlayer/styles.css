@@ -134,6 +134,7 @@ input:checked + label{
 
 @media(max-width: 360px){
   .tarjetas{
+    display: flex;
     flex-direction: column;
   }
   .titulo{
